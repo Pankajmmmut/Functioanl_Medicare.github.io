@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainheader{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+    width:250px; height:70px;
+    padding-left: 60px;
+}
+.mainheader nav{
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainheader nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+}
+.mainheader nav a:hover {
+    text-decoration: underline;
+    background-color:;
+    font-size: 20px;
+    color: rgb(101, 118, 212);
+  }
+.mainheader .menubtn{
+    margin-right: 60px;
+}
+.mainheader button{
+    padding:10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border:none;
+    background-color: rgb(120, 120, 247);
+    border-radius: 4px;
+}
+header{
+    width:100%;
+    height:500px;
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-items: center;
+}
+.leftsec h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color:#242424;
+    margin-top: 150px;
+}
+.leftsec h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight:700;
+    margin: 12px;
+}
+.leftsec p{
+    margin-bottom: 10px;
+}
+.leftsec button{
+    padding:10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border:none;
+    background-color: rgb(120, 120, 247);
+    border-radius: 4px;
+}
+.mian{
+    width:100%;
+   
+   
+}
+.main .apsec1{
+    background-color: rgb(101, 118, 212);
+    width:50%;
+    padding:30px;
+    padding-left: 180px;
+   float:left;
+   color: white;
+    align-items: center;
+    height:100px;
+}
+.main .apsec2{
+    background-color: rgb(101, 118, 212);
+    padding:30px;
+   float: left;
+    width:50%;
+    height:100px;
+   
+}
+.main .apsec2 button{
+    padding:10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(9, 14, 85);
+    border:none;
+    background-color: rgb(252, 248, 248);
+    border-radius: 4px;
+}
